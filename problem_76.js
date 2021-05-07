@@ -5,10 +5,11 @@ function getSum(number) {
 			sums[k] = sums[k - i] + (sums[k] || 1);
 		}
 	}
+	console.log(sums)
 	return sums[number];
 }
 
-console.log(getSum(100));
+console.log(getSum(10));
 
 //2(1) =
 //3(2) = 111, 21,
